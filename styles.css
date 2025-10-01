@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204);
+}
+ul{
+	
+	list-style-type:none;
+}
+.list{
+	border:2px soild black;
+
+}
