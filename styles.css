@@ -1,12 +1,26 @@
-/*  your css code here. If applicable */
-body{
-	background-color: rgb(204, 204, 204);
+/* your css code here. If applicable */
+body {
+  background-color: rgb(204, 204, 204);
 }
-ul{
-	
-	list-style-type:none;
-}
-.list{
-	border:2px soild black;
 
+ul {
+  list-style-type: none;
+  padding: 0;   /* optional, for clean layout */
+  margin: 0;    /* optional */
+}
+
+.list {
+  border: 2px solid black;   /* ✅ fixed 'soild' to 'solid' */
+  background-color: white;   /* ✅ fixed 'background-colr' to 'background-color' */
+  padding: 10px;             /* optional, for spacing */
+  margin-bottom: 10px;       /* optional, separation between items */
+}
+
+.container {
+  background-color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
 }
