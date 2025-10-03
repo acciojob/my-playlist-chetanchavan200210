@@ -1,26 +1,43 @@
-/* your css code here. If applicable */
-body {
-  background-color: rgb(204, 204, 204);
-}
+    body {
+      background-color: rgb(204, 204, 204);
+      font-family: Arial, sans-serif;
+    }
 
-ul {
-  list-style-type: none;
-  padding: 0;   /* optional, for clean layout */
-  margin: 0;    /* optional */
-}
+    h1, h2 {
+      text-align: center;
+    }
 
-.list {
-  border: 2px solid black;   /* ✅ fixed 'soild' to 'solid' */
-  background-color: white;   /* ✅ fixed 'background-colr' to 'background-color' */
-  padding: 10px;             /* optional, for spacing */
-  margin-bottom: 10px;       /* optional, separation between items */
-}
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 400px;
+    }
 
-.container {
-  background-color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-}
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      text-decoration-line: none;
+      color: blue;
+      font-weight: bold;
+    }
+
+    .container {
+      background-color: white;
+      border: 2px solid black;
+      margin: 20px auto;
+      padding: 25px;
+      max-width: 600px;
+      border-radius: 8px;
+    }
+
+    .player_one, .player_two {
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+      border-radius: 10px;
+      margin: 15px auto;
+      max-width: 500px;
+      border: 1px solid #333;
+    }
